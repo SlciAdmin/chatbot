@@ -14,7 +14,8 @@ langgraph==0.1.2
 # --- Vector Search (FAISS) ---
 # Use a newer version that works on Python 3.12+ (Render’s environment)
 faiss-cpu==1.12.0
-sentence-transformers==2.2.2
+sentence-transformers==2.7.0
+
 
 # --- Utilities ---
 requests==2.32.3
