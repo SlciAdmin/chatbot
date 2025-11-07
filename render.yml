@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: chatbot-backend
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: gunicorn -b 0.0.0.0:5000 api:flask_app
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false  # Add it manually in Render dashboard
+      - key: PORT
+        value: 5000
