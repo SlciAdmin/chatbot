@@ -9,7 +9,8 @@ langchain==0.3.7
 langchain-groq==0.2.0
 langchain-community==0.3.7
 langchain-huggingface==0.1.2
-langgraph==0.1.2
+langgraph==0.2.0
+
 
 # --- Vector Search (FAISS) ---
 # Use a newer version that works on Python 3.12+ (Render’s environment)
