@@ -1,0 +1,6 @@
+venv
+.env
+index/
+index.faiss
+index.pkl
+slci_clean_data.json
